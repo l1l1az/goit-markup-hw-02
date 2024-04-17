@@ -38,8 +38,17 @@ body{
     color: #2e2f42;
 }
 
+.menu-linkk{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .menu-link:hover,
-.menu-link:focus{
+.menu-link:focus,
+.menu-linkk:hover,
+.menu-linkk:focus{
     color: #404bbf;
 }
 
@@ -86,6 +95,9 @@ body{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    color: #ffffff;
     }
 
 .butt:hover,
@@ -125,7 +137,7 @@ body{
 }
 
 team-list{
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
 .team-name{
@@ -148,10 +160,11 @@ team-list{
 .head-portf{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .names{
@@ -188,4 +201,8 @@ team-list{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.span-white{
+    color: #f4f4fd;
 }
